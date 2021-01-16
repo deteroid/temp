@@ -1,7 +1,8 @@
-.App {
-  text-align: center;
-}
+/* .App {
+  height: 1200px;
+} */
 
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,56 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.outerwrap{
+text-align: center;
+
+}
+
+
+.header{
+  background-color: darkcyan;
+  position: sticky;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.sidebar{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+a:hover {
+  color: #f1f1f1;
+}
+
+
+
+.musicplayer{
+  background-color: red;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
 }
